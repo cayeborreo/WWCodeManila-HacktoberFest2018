@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Weather from "./components/Weather";
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,8 @@ class App extends Component {
             height="100%"
           />
         </div>
+
+        <Weather />
       </React.Fragment>
     );
   }
